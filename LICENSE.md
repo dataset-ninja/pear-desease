@@ -1,0 +1,1 @@
+DiaMOS Plant Dataset for Diagnosis and Monitoring Plant Disease is under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) license.
