@@ -20,7 +20,7 @@ RELEASE_YEAR: int = 2021
 HOMEPAGE_URL: str = "https://zenodo.org/record/5557313#.YgZSYHVBzmg"
 # e.g. "https://some.com/dataset/homepage"
 
-PREVIEW_IMAGE_ID: int = None
+PREVIEW_IMAGE_ID: int = 386305
 # This should be filled AFTER uploading images to instance, just ID of any image.
 
 GITHUB_URL: str = "https://github.com/dataset-ninja/pear-desease"
@@ -34,7 +34,10 @@ DOWNLOAD_ORIGINAL_URL: Optional[
 ] = "https://zenodo.org/record/5557313/files/Pear.zip?download=1"
 # Optional link for downloading original dataset (e.g. "https://some.com/dataset/download")
 
-CLASS2COLOR: Optional[Dict[str, List[str]]] = None
+CLASS2COLOR: Optional[Dict[str, List[str]]] = {
+    "pear": [255, 255, 0],
+    "leaf": [102, 0, 204]
+}
 # If specific colors for classes are needed, fill this dict (e.g. {"class1": [255, 0, 0], "class2": [0, 255, 0]})
 
 PAPER: Optional[str] = "https://www.mdpi.com/2073-4395/11/11/2107"

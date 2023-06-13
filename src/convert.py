@@ -8,8 +8,8 @@ from supervisely.io.fs import file_exists, get_file_name, get_file_name_with_ext
 def convert_and_upload_supervisely_project(
     api: sly.Api, workspace_id: int, project_name: str
 ) -> sly.ProjectInfo:
-    dataset_path = "/home/alex/DATASETS/TODO/pear/Pear"
-    annotations_path = "/home/alex/DATASETS/TODO/pear/Pear/annotation/YOLO/"
+    dataset_path = "/home/iwatkot/supervisely/ninja-datasets/Pear"
+    annotations_path = "/home/iwatkot/supervisely/ninja-datasets/Pear/annotation/YOLO/"
 
     batch_size = 10
 
