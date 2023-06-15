@@ -34,10 +34,7 @@ DOWNLOAD_ORIGINAL_URL: Optional[
 ] = "https://zenodo.org/record/5557313/files/Pear.zip?download=1"
 # Optional link for downloading original dataset (e.g. "https://some.com/dataset/download")
 
-CLASS2COLOR: Optional[Dict[str, List[str]]] = {
-    "pear": [255, 255, 0],
-    "leaf": [102, 0, 204]
-}
+CLASS2COLOR: Optional[Dict[str, List[str]]] = {"pear": [255, 85, 0], "leaf": [102, 0, 204]}
 # If specific colors for classes are needed, fill this dict (e.g. {"class1": [255, 0, 0], "class2": [0, 255, 0]})
 
 PAPER: Optional[str] = "https://www.mdpi.com/2073-4395/11/11/2107"
