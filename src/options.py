@@ -11,7 +11,7 @@ from src.settings import ANNOTATION_TYPES
 # * If None, then preview_class will be set automatically to "ClassesPreview"
 PREVIEW_CLASS = None
 
-IS_DETECTION_TASK: bool = None  # ? Set True if you want to visualize only bbox annotations
+IS_DETECTION_TASK: bool = True  # ? Set True if you want to visualize only bbox annotations
 if IS_DETECTION_TASK is None:
     IS_DETECTION_TASK = ANNOTATION_TYPES == [AnnotationType.ObjectDetection()]
 
