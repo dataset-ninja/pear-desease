@@ -13,7 +13,7 @@ from dataset_tools.templates import (
 ##################################
 # * Before uploading to instance #
 ##################################
-PROJECT_NAME: str = "DiaMOS Plant Dataset"
+PROJECT_NAME: str = "DiaMOS"
 PROJECT_NAME_FULL: Optional[
     str
 ] = "DiaMOS Plant Dataset: A Dataset for Diagnosis and Monitoring Plant Disease"
